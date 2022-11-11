@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+.container {
+    margin-top: 175px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.color-btn {
+    height: 200px;
+    width: 200px;
+}
+
+#green {
+    background-color: green;
+    border-radius: 200px 0 0 0;
+    margin: 0 10px 10px 0;
+}
+
+.green-click {
+    background-color: rgb(150, 255, 150) !important;
+}
+
+#red {
+    background-color: red;
+    border-radius: 0 200px 0 0;
+    margin: 0 0 10px 10px;
+}
+
+.red-click {
+    background-color: rgb(255, 150, 150) !important;
+}
+
+#yellow {
+    background-color: yellow;
+    border-radius: 0 0 0 200px;
+    margin: 10px 10px 0 0;
+}
+
+.yellow-click {
+    background-color: rgb(255, 255, 150) !important;
+}
+
+#blue {
+    background-color: blue;
+    border-radius: 0 0 200px 0;
+    margin: 10px 0 0 10px;
+}
+
+.blue-click {
+    background-color: rgb(150, 150, 255) !important;
+}
+
+.play-btn {
+    background-color: rgb(25, 25, 25);
+    border-radius: 100%;
+    box-shadow: 0 0 50px;
+    height: 180px;
+    width: 180px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    z-index: 10;
+}
+
+p {
+    color: white;
+    font-family: Verdana;
+    font-size: 35px;
+    font-weight: 650;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
